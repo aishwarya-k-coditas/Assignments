@@ -1,115 +1,95 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
-.wrap-pass
-{
-	width: 1600px;
+.wrap-pass{
+	background-color:#f6f6f6;
 	height: 900px;
-	background-color: #f6f6f6;
-	border-radius: 3px;
-	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .header{
-	background-color:  #17a2d4;
-	font-family: Lato;
-	color:  #f4f4f4;
-	font-size: 30px;
-	font-weight: 800;
-	text-align: left;
-	padding: 24px;
-}
+height: 100px;
+background-color: #17a2d4;
+color:white;
 
+}
+.sportsexchange{
+	float: left;
+	color: #f4f4f4;
+	font-size: 20px;/* Approximation due to font substitution */
+	font-weight: 800;
+	
+}
 
 .signUp{
 	border-radius: 3px;
-	background-color:  #ffffff;
+	background-color: #ffffff;
 	box-shadow: 0px 0px 5.76px 0.24px rgba(0, 0, 0, 0.24);
-	float:right;
 	width: 140px;
 	height: 50px;
-	font-weight:bold;
-	margin-right:20px; 
-	position: absolute;
-	right: 0;
-	top:30px;
+	float:left;
+	margin-top: 20px;
+	margin-right: 16px;
 }
 
 .login{
 	border-radius: 3px;
-	background-color:  #ffffff;
+	background-color: #ffffff;
 	box-shadow: 0px 0px 5.76px 0.24px rgba(0, 0, 0, 0.24);
 	width: 140px;
 	height: 50px;
+	float:left;
+	margin-top: 20px;
+	
+	
+}
+.accountbuttons{
 	float:right;
-	font-weight: bold;
-	position: absolute;
-	right: -170px;
-	top:30px;
 
+}
+.clear{
+	clear:both;
 }
 
 .centerblock{
 	border-radius: 3px;
-background-color:  #ffffff;
-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
-width: 500px;
-height: 260px;
-margin:30px auto;
-}
-
-.clear{
-	clear: both;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	height: 260px;
+	display: block;
+	margin:80px auto;
+	padding: 10px;
 }
 
 .headline{
-font-family: Lato;
-color:  #000000;
-font-size: 15px;/* Approximation due to font substitution */
+	font-family: Lato;
+color: #000000;
+font-size: 13px;/* Approximation due to font substitution */
 font-weight: 400;
-text-align: left;
-padding-left:10px;
-padding-top: 10px;
+
 }
 
 .accept input{
-	border-radius: 3px;
-	border-width: 1px;
-	border-color:  #e8e8e8;
-	border-style: solid;
-	background-color:  #f6f6f6;
-	width: 448px;
-	height: 58px;
-	padding-left:10px;
-	margin: 10px;
 
+border-radius: 3px;
+border-width: 1px;
+border-color: #e8e8e8;
+border-style: solid;
+background-color: #f6f6f6;
+width: 448px;
+height: 58px;
+padding-left:10px;
 }
 
 .note{
-	font-family: Lato;
-	color:  #969696;
-	font-size: 10px;/* Approximation due to font substitution */
-	font-weight: 400;
-	text-align: left;
-	margin:0px 10px;
+font-family: Lato;
+color: #969696;
+font-size: 13px;/* Approximation due to font substitution */
+font-weight: 400;
 }
- 
- .button{
-	border-radius: 3px;
-	background-color:  #17a2d4;
-	width: 150px;
-	height: 50px;
-	color:white;
-	margin: 20px auto;
-}
-
-.btn{
-	border-radius: 3px;
-	background-color:  #17a2d4;
-	width: 150px;
-	height: 50px;
-	color:white;
-
+.button button{ 
+border-radius: 3px;
+background-color: #17a2d4;
+width: 150px;
+height: 50px;
+margin:auto;
+display: block;
 }
